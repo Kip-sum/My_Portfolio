@@ -45,13 +45,13 @@ font-size: 24px;
     .main1 {
         display: flex;
         align-items: center;
-        /*padding: 50px;*/
+       /* padding: 50px;*/
         gap: 160px;
         background: #dcdce6;
-        border-radius: 20px;
+        border-radius: 600px 0% 150% 80px;
   border: none;  /* creates the box line */
   padding: 20px;            /* space inside the box */
-  margin: 20px;             /* space outside the box */
+  margin: 60px 0px 20px 0px;            /* space outside the box */
  /* background-color: #f9f9f9; /* light background */
 
     }
@@ -139,7 +139,8 @@ font-size: 24px;
 .project-card {
     background: #1e293b;
     padding: 20px;
-    border-radius: 10px;
+    border-radius:  75%;
+    box-shadow: 0px 30px 50px 60px rgba(0,128,0);
 }
 
 .project-card ul {
@@ -147,7 +148,7 @@ font-size: 24px;
 }
 
 .project-card a {
-    color: #22c55e;
+    color: #c52222;
     text-decoration: none;
 }
 /*CONTACT SECTION*/
