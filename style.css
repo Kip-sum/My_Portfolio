@@ -45,9 +45,15 @@ font-size: 24px;
     .main1 {
         display: flex;
         align-items: center;
-        padding: 50px;
+        /*padding: 50px;*/
         gap: 160px;
         background: #dcdce6;
+        border-radius: 20px;
+  border: none;  /* creates the box line */
+  padding: 20px;            /* space inside the box */
+  margin: 20px;             /* space outside the box */
+ /* background-color: #f9f9f9; /* light background */
+
     }
 .main1 .text {
     width: 400px;
